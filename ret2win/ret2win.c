@@ -6,6 +6,6 @@ void win() {
 int main() {
    char buffer[16];
    gets(buffer);
-   printf("You said: %s", buffer);
+   printf("You said: %s\n", buffer);
    return 0;
 }
